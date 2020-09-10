@@ -1,0 +1,54 @@
+p {
+    
+}
+.center-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: block;
+}
+
+.button {
+    float:left;
+}
+
+#lucky-button {
+    float:right
+}
+.main-logo  img{
+    width: 100%:
+    height: auto;
+}
+
+.searchbar{
+    display: block;
+    border: 1px solid #d6c0c0;
+    border-radius: 1em;
+    width: 500px;
+    height: 2em;
+
+}
+.searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+
+}
+#magnifying-glass{
+    float: left;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+#microphone {
+    float:right;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.searchbar img{ 
+    display: block;   
+    height: 25px;
+    width:auto;
+}
