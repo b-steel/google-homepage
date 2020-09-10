@@ -1,26 +1,24 @@
 p {
     
 }
-.center-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.box {
-    display: block;
-}
 
 .button {
-    float:left;
+    margin: 15px;
 }
 
-#lucky-button {
-    float:right
+.main-box {
+    margin:auto;
+    /*background:aqua; */
+    text-align: center;
+    
 }
 .main-logo  img{
-    width: 100%:
+    margin: auto;
+    width: auto;
     height: auto;
+    background: orange;
+    
 }
 
 .searchbar{
