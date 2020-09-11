@@ -61,7 +61,30 @@
     #right-nav-links {
         float:unset;
     }
-
+}
+#main {
+    margin: 0 50px; 
+    position:relative; 
+    top:100px
+}
+@media (max-height: 600px) {
+    #main {
+        top:30px;
+    }
+}
+#blocking {
+    width:100%; 
+    height:100px; 
+    display:block
+}
+@media (max-height: 500px) {
+    #logo {
+        width:75%;
+        height:auto;
+    }
+    #blocking {
+        height:15px;
+    }
 }
 
 }
@@ -97,15 +120,13 @@ bottom: 11px;
     width:35px;
 }
 
-.button {
-    margin: 15px;
-}
 
 .main-box {
     text-align: center;
-    min-width: 450px;
+    min-width: 300px;
     padding: 0 10px 0 10px;
-    margin: 0 50px;
+    margin: 20px auto;
+   
 }
 .main-logo  img{
     margin: auto;
@@ -120,7 +141,7 @@ bottom: 11px;
     border: 1px solid #d6c0c0;
     border-radius: 1em;
     width: auto;
-    max-width: 600px;
+    max-width: 470px;
     height: 2em;
     margin:auto;
 }
@@ -130,18 +151,33 @@ bottom: 11px;
 }
 #magnifying-glass{
     float: left;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
 #microphone {
     float:right;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-right: 10px;
 }
 
 .searchbar img{ 
     display: block;   
-    height: 25px;
+    height: 18px;
     width:auto;
+}
+button {
+    border: none;
+    border-radius: .3em;
+    height: 36px;
+    width: 134px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: auto 7px;
+    color: #414141;
+}
+button:hover{
+    box-shadow: 0px 1px 3px 0 rgba(32,33,36,0.28);
+    border: 1px solid #b9b9b9;
+    color: black;
 }
