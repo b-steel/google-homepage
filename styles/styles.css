@@ -1,7 +1,27 @@
-p {
-    
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:inline;
 }
-
+li {
+    display:inline;
+    vertical-align: middle;
+}
+#right-list {
+float: right;
+}
+ 
+#squares {
+    height: 25px;
+    width: auto;
+}
+.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 35px;
+    width:35px;
+}
 
 .button {
     margin: 15px;
