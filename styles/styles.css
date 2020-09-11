@@ -6,6 +6,10 @@
 .navbar {
     position: relative;
     top: 14px;
+    min-width: 400px
+}
+.navbar ul {
+    display: inline-block;
 }
 .nav-links {
     font-size: 13px;
@@ -31,28 +35,26 @@
     width: 100%;
 }
 .footer ul{
-    height: auto;
+    
     vertical-align: middle;
-    display: inline-block;
+
     text-align: center;
 }
 .footer ul li {
     height: 30px;
-    display: inline-block;
+}
+.container {
+    min-width: 290px;
+    margin: auto 0;
 }
 #right-nav-links {
     float:right;
-    min-width: 180px;
-
 }
 #left-nav-links {
     float: left;
-    min-width: 290px;
 }
-@media (max-width: 540px) {
-    .container {
-        text-align: center;
-    }
+@media (max-width: 610px) {
+    
     #left-nav-links {
         float:unset;
     }
@@ -84,8 +86,9 @@ bottom: 11px;
 
  
 #squares {
-    height: 25px;
+    height: 17px;
     width: auto;
+    object-fit: cover;
 }
 .rounded {
     object-fit: cover;
@@ -99,10 +102,10 @@ bottom: 11px;
 }
 
 .main-box {
-    margin:auto;
-    /*background:aqua; */
     text-align: center;
-    
+    min-width: 450px;
+    padding: 0 10px 0 10px;
+    margin: 0 50px;
 }
 .main-logo  img{
     margin: auto;
@@ -116,9 +119,10 @@ bottom: 11px;
     display: block;
     border: 1px solid #d6c0c0;
     border-radius: 1em;
-    width: 500px;
+    width: auto;
+    max-width: 600px;
     height: 2em;
-
+    margin:auto;
 }
 .searchbar:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
